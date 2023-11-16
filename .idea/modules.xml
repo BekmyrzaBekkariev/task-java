@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/if-task/if-task.iml" filepath="$PROJECT_DIR$/if-task/if-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-task/learn-task.iml" filepath="$PROJECT_DIR$/learn-task/learn-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/task-java.iml" filepath="$PROJECT_DIR$/.idea/task-java.iml" />
     </modules>
   </component>
