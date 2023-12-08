@@ -12,16 +12,28 @@ public class task1 {
 	public static void main(String[] args) {
 		String numbers = "";
 
+		long before = System.currentTimeMillis();
+
 		for (int i = 0; i <= 2000; i++)
 			numbers += i + " ";
 
+		long after = System.currentTimeMillis();
+
+		System.out.println("Время выполнения цикла с классом String: " + (after - before));
 		System.out.println(numbers);
 
 		// Сделаем так как нужно делать для таких задач StringBuilder
-		// StringBuilder нужен если вы будите часто изменять String
+		// StringBuilder нужен если вы будите часто изменять Строку String
 		StringBuilder sb = new StringBuilder("");
+
+		before = System.currentTimeMillis();
+
 		for (int i = 0; i < 2000; i++)
 			sb.append(i).append(" ");
+
+		after = System.currentTimeMillis();
+
+		System.out.println("Время выполнения цикла с классом StringBuilder: " + (after - before));
 
 		System.out.println(sb);
 
